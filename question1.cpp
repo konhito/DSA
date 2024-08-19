@@ -205,3 +205,41 @@ using namespace std;
 
 //     return 0;
 // }
+
+//----------------------------------------------
+//#include <bits/stdc++.h>
+
+// using namespace std;
+// using vi = vector<string>;
+
+// void solve() {
+//     bool c = true;
+//     int n;
+//     cin >> n;
+//     string s;
+//     cin >> s;
+//     map<char, int> mpp;
+//     int maxi = 0;
+//     for(int i = 0;i<n;i++){
+        
+//         mpp[s[i]]++;
+//     }
+ 
+//     for(auto &i : mpp){
+//         if(i.second %2 !=0) c = false;
+        
+//     }
+//     if(c) cout << "yes" << endl;
+//     else cout << "no" << endl;
+// }
+
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(0);
+
+//     int t;
+//     cin >> t;
+//     while (t--) solve();
+
+//     return 0;
+// }
